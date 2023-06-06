@@ -1,0 +1,60 @@
+:root {
+    --neutral-900: #181E24;
+    --neutral-800: #283038;
+    --neutral-100: #FAFBFC;
+    --primary-300: #4AA8FF;
+    --primary-300-15: #4AA8FF26;
+    --success-300: #66FFBA;
+    --danger-300: #FF7DB1;
+    --dice-size: 120px;
+    --dice-font: 56px;
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--primary-300);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: var(--neutral-100);
+    text-align: center;
+}
+
+body {
+    background-color: var(--neutral-900);
+}
+
+#dice-group {
+    text-align: center;
+}
+#rollDice {
+    background-color: var(--primary-300-15);
+    color: var(--primary-300);
+    border-radius: 4px;
+    border: 0px;
+    padding: 12px 16px 12px 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+.dice {
+    font-family: 'Lato', sans-serif;
+    font-size: var(--dice-font);
+    color: var(--neutral-100);
+    display: inline-block;
+    width: var(--dice-size);
+    height: var(--dice-size);
+    line-height: var(--dice-size);
+    text-align: center;
+    background-color: var(--neutral-800);
+    border-radius: 8px;
+    margin: 40px;
+}
+
+#dice-rolls {
+    color: white;
+    font-family: 'roboto', sans-serif;
+}
